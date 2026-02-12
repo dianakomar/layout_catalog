@@ -6,7 +6,7 @@
     box-shadow 300ms ease;
   height: $card-height;
   box-sizing: border-box;
-  padding: 16px;
+  padding: $card-padding;
 
   transform-origin: center;
   will-change: transform;
@@ -16,8 +16,8 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    width: 160px;
-    height: 134px;
+    width: $image-width;
+    height: $image-height;
     margin: 16px auto 40px;
   }
 
@@ -98,7 +98,7 @@
   &__buy {
     display: flex;
     border-radius: 5px;
-    padding: 12px 70px;
+    padding: $buy-padding-vertical $buy-padding-horizontal;
     border: 0;
     margin: 16px 0;
 
