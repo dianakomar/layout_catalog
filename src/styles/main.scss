@@ -3,5 +3,5 @@
   display: grid;
   justify-content: center;
   grid-template-columns: $card-size;
-  gap: $gap-x $gap-y;
+  gap: $gap-y $gap-x;
 }
